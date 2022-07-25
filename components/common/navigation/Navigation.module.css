@@ -1,0 +1,24 @@
+.root {
+  @apply fixed top-0 left-0 w-full z-50;
+
+  &.active {
+    @apply bg-gray-600;
+  }
+  & .nav {
+    @apply justify-between items-center mx-auto py-2;
+
+    @screen md {
+      & {
+        @apply flex; /* applies flex on nav on md screens */
+      }
+    }
+
+    & .logo {
+      @apply w-[250px] h-[50px] md:w-[275px] lg:w-[300px] relative;
+    }
+
+    & .toggle {
+      @apply absolute top-5 right-4 cursor-pointer md:hidden;
+    }
+  }
+}

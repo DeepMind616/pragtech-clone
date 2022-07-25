@@ -1,0 +1,26 @@
+.root {
+    @apply relative min-h-[339px] flex justify-center items-center ;
+}
+.companyListImage{
+      @apply brightness-50 absolute inset-0 -z-50;
+    }
+.companyListContainer {
+        @apply text-center max-w-7xl lg:mt-12;
+    
+        & .title {
+            @apply text-white uppercase font-bold text-[25px] lg:text-[30px] xl:text-[42px];
+        }
+    
+        & .titleGreen {
+            @apply text-[#479F5E] uppercase font-bold text-[25px] lg:text-[30px] xl:text-[42px];
+        }
+      }
+.images_samples__container{
+        @apply flex flex-wrap relative justify-center;
+    }
+.images_container{
+        @apply relative h-12 w-28 mx-10 my-4 
+        sm:mx-5 sm:my-8
+        lg:mx-8 lg:my-11
+        lg:h-16 lg:w-40;
+    }

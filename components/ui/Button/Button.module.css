@@ -1,0 +1,22 @@
+.root {
+  @apply rounded-full px-5;
+}
+
+.mdPadding {
+  @apply py-1
+  lg:px-7 lg:py-2
+  xl:px-9 xl:py-3;
+}
+
+.lgPadding {
+  @apply py-1 px-14
+  lg:px-16 lg:py-3
+  xl:px-28 xl:py-4;
+}
+
+.primary {
+  @apply bg-primary-500 text-white;
+}
+.secondary {
+  @apply bg-black;
+}

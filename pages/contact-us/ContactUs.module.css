@@ -1,0 +1,87 @@
+.root {
+  @apply h-screen lg:h-[760px] relative
+  2xl:h-screen;
+
+  @media (max-height: 700px) {
+    height: 760px;
+  }
+
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/contactUs/bg.png") no-repeat;
+  background-size: cover;
+
+  .contents {
+    @apply max-w-8xl mx-auto gap-10 flex flex-col  pt-[100px] px-5 
+    sm:px-12 
+    lg:grid lg:grid-cols-2 lg:gap-10
+    lg:pt-[150px] lg:px-[60px]
+    xl:pt-[182px] xl:pl-[65px] xl:pr-[96px];
+
+    .leftContainer {
+      @apply flex flex-col justify-center;
+
+      .title {
+        @apply flex justify-start text-primary-500 font-bold uppercase text-3xl
+        lg:text-4xl lg:leading-[56px]
+        xl:text-[42px];
+      }
+
+      .subText {
+        @apply text-white font-medium uppercase flex items-center text-sm h-[80px] my-6
+        sm:mb-[10px] sm:w-2/3 
+        md:w-3/4
+        lg:text-base lg:mb-[15px] lg:h-[130px]
+        xl:text-lg xl:mb-[26px] xl:w-[550px];
+      }
+    }
+
+    .contacts {
+      @apply bg-primary-500 bg-opacity-80 rounded-md flex flex-col justify-between p-5 h-[280px]
+      sm:h-[300px]
+       md:w-2/3
+      lg:ml-auto lg:w-full lg:h-[350px] lg:p-8
+      xl:w-full xl:h-[397px] xl:p-10;
+
+      .itemContainer {
+        @apply flex text-white items-center font-medium text-sm
+        sm:text-base
+        xl:text-lg;
+
+        .iconContainer {
+          @apply relative
+          w-[18px] h-[18px] mr-[30px] 
+          sm:w-[18px] sm:h-[18px] sm:mr-[30px] sm:mt-0
+          md:w-[20px] md:h-[20px] 
+          lg:w-[22px] lg:h-[22px];
+        }
+      }
+      .itemContainer:last-of-type {
+        word-break: break-all;
+      }
+    }
+  }
+}
+
+.footer {
+  @apply absolute w-full bottom-[-450px]
+  sm:bottom-0 
+  md:bottom-[-50px]
+  lg:bottom-[-250px]
+  xl:bottom-[-350px];
+
+  @media (max-height: 700px) and (max-width: 639px) {
+    bottom: -1000px;
+  }
+  @media (max-height: 750px) and (max-width: 639px) {
+    bottom: -500px;
+  }
+
+  @media (min-width: 1561px) {
+    bottom: -250px;
+  }
+  @media (min-width: 2561px) {
+    bottom: -10px;
+  }
+  @media (min-width: 3200px) {
+    bottom: 0;
+  }
+}

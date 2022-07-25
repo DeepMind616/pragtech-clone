@@ -1,0 +1,5 @@
+.root {
+  @apply max-w-8xl mx-auto px-5
+  sm:px-12 
+  xl:px-24;
+}

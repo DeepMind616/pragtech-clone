@@ -1,0 +1,9 @@
+.root {
+  @apply flex space-x-3 justify-center items-center py-4;
+
+  & .dot {
+    @apply cursor-pointer rounded-full 
+        h-4 w-4
+        transition-all duration-200;
+  }
+}

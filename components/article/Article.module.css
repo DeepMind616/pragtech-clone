@@ -1,0 +1,119 @@
+.root {
+  @apply rounded-3xl py-8 px-5
+  sm:py-10 sm:px-10
+  md:px-14
+  lg:px-[30px] lg:py-[30px]
+  xl:w-full xl:py-[60px] xl:pl-[101px] xl:pr-[46px];
+
+  box-shadow: 5px 3px 36px -6px #e5e5e5;
+
+  .headContainer {
+    @apply flex flex-col-reverse justify-between items-center mb-8
+    md:mb-[50px]
+    lg:flex-row;
+
+    .titleContainer {
+      @apply sm:w-[350px]
+      md:w-[400px];
+
+      .title {
+        @apply text-primary-500 font-bold text-center text-xl mb-5
+        sm:text-2xl
+        md:mb-4 
+        lg:mb-[20px] lg:text-left
+        xl:text-3xl xl:mb-[30px];
+      }
+    }
+    .mainImageContainer {
+      @apply relative w-full h-[150px] mb-5
+      sm:h-[250px] sm:mb-10
+      md:w-[500px] md:h-[250px] md:mb-10
+      lg:w-[600px] lg:h-[300px] lg:mb-0
+      xl:w-[729px] xl:h-[394px];
+    }
+  }
+}
+
+.article {
+  .itemsContainer {
+    @apply lg:flex lg:items-center lg:justify-between;
+
+    .articleContainer {
+      @apply flex flex-col 
+     lg:w-[720px]
+     xl:w-[920px]
+     2xl:w-[970px];
+
+      .title {
+        @apply text-primary-500 font-bold 
+        md:text-xl
+        lg:text-2xl
+        xl:text-3xl;
+      }
+      .body {
+        @apply font-medium text-justify text-sm pt-[5px] pb-[20px] 
+        md:text-base md:pt-[10px]  
+        lg:text-lg lg:pt-[20px] lg:pb-[30px] lg:text-left
+        xl:text-[25px] xl:leading-[33px] xl:pt-[30px] xl:pb-[40px];
+      }
+    }
+    .articleImageContainer {
+      @apply relative w-[300px] h-[150px]
+      lg:h-[386px]
+      xl:w-[600px];
+    }
+
+    &:nth-child(2) {
+      .body {
+        @apply xl:pb-[70px];
+      }
+    }
+    &:nth-child(3) {
+      .articleContainer {
+        @apply lg:w-[350px]
+        xl:w-[470px] xl:pr-[30px]
+        2xl:pr-0;
+      }
+      .articleImageContainer {
+        @apply w-full mb-5
+        sm:mb-5 sm:w-[350px] sm:h-[180px] sm:mx-auto
+        md:w-[350px] md:h-[180px] md:mb-5 
+        lg:w-[450px] lg:h-[280px] lg:m-0
+        xl:w-[600px] xl:h-[386px];
+      }
+    }
+    &:nth-child(4) {
+      @apply lg:flex-row-reverse;
+      .articleContainer {
+        @apply lg:w-[420px] lg:mt-[40px] lg:pl-[40px]
+        xl:w-[520px] xl:mt-[50px] xl:pl-[60px]
+        2xl:pl-[0px];
+
+        .body {
+          @apply xl:w-[470px]
+          2xl:w-[500px];
+        }
+      }
+      .articleImageContainer {
+        @apply w-full h-[200px]
+         sm:h-[250px]  sm:mx-auto
+        md:h-[300px]
+        lg:w-[420px] lg:h-[330px] lg:m-0
+        xl:w-[539px] xl:h-[430px];
+      }
+    }
+  }
+}
+
+.pillsContainer {
+  @apply flex flex-wrap gap-1 rounded-3xl;
+}
+
+.samples {
+  @apply bg-[rgb(229,229,229)] text-black rounded-2xl font-medium 
+  text-xs py-[1px] px-[10px]
+  sm:text-sm sm:py-[2px] 
+  md:text-base md:py-[4px] md:px-[10px]
+  lg:text-base lg:py-[5px] 
+  xl:py-[6px] xl:px-[13px] xl:mt-1;
+}

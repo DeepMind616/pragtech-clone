@@ -1,0 +1,20 @@
+.item {
+  @apply xl:min-w-[377px] xl:min-h-[243px];
+}
+
+.imageContainer {
+  @apply relative h-[250px]
+    sm:h-[250px]
+    md:h-[250px]
+    lg:max-h-[250px]
+    xl:w-[377px] xl:h-[243px];
+
+  .playButton {
+    @apply absolute flex items-center justify-center rounded-full w-[81px] h-[81px] cursor-pointer
+      bg-black bg-opacity-40 translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%];
+
+    & > div {
+      @apply flex;
+    }
+  }
+}

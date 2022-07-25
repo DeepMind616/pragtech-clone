@@ -1,0 +1,31 @@
+.root {
+  & .title {
+    @apply uppercase font-bold text-3xl  md:text-3xl lg:text-4xl xl:text-5xl;
+
+    & > * {
+      @apply text-primary-500;
+    }
+  }
+
+  & .subtitle {
+    @apply text-primary-600 md:text-xl lg:text-2xl xl:text-2xl font-bold;
+  }
+  & .cardSubtitle {
+    @apply font-normal leading-4
+          lg:text-base
+          xl:text-lg;
+  }
+  & .headerFive {
+    @apply font-normal leading-3 md:leading-3 text-justify text-xs;
+  }
+
+  & .paragraph {
+    @apply font-medium leading-7 md:leading-10 text-justify
+          lg:text-xl
+          xl:text-2xl;
+  }
+
+  & .buttonText {
+    @apply text-white;
+  }
+}

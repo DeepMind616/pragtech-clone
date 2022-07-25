@@ -1,0 +1,68 @@
+.root {
+  @apply my-10 grid
+    md:grid-cols-2 grid-rows-1;
+
+  .left {
+    @apply col-span-1 flex flex-col justify-center row-start-2 
+      md:col-start-1 md:row-start-1;
+
+    .title {
+      @apply uppercase font-bold 
+      text-3xl
+      lg:text-4xl
+      xl:text-[42px] xl:leading-[60px];
+      span {
+        @apply text-primary-500;
+      }
+    }
+
+    .spanContainer {
+      @apply my-6 
+        lg:my-8 
+        xl:my-[37px];
+
+      @apply font-[500] text-base
+      md:text-lg
+      lg:text-xl
+      xl:text-[22px] xl:leading-[30px];
+    }
+
+    .btnContainer {
+      @apply flex justify-center w-[250px] h-[50px];
+
+      @screen sm {
+        width: 250px;
+        height: 50px;
+      }
+
+      @screen lg {
+        width: 270px;
+        height: 57px;
+      }
+
+      button {
+        @apply bg-black text-white rounded-full  font-[500] w-full leading-[26.5px] 
+        md:text-base
+        lg:text-lg
+        xl:px-[25px] xl:py-[15px] xl:text-xl;
+      }
+    }
+  }
+
+  .right {
+    @apply flex justify-center
+    md:justify-end;
+
+    .imageContainer {
+      height: 100%;
+      @apply flex justify-center items-center
+      sm:w-2/3;
+
+      @screen md {
+        width: 490px;
+        height: 404px;
+        grid-column-start: 2;
+      }
+    }
+  }
+}

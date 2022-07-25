@@ -1,0 +1,24 @@
+.root {
+    @apply m-auto mt-16 lg:mt-10 justify-center p-5 lg:p-20 max-w-8xl
+      grid grid-cols-1 grid-rows-6 gap-3 gap-y-6
+      md:grid-cols-2 md:grid-rows-3;
+  }
+.card{
+    @apply mx-auto md:mx-0 relative border-solid border-[1px] 
+    py-5 rounded-2xl shadow-xl px-3 xl:px-10 xl:min-h-[400px];
+}
+.title{
+    @apply justify-center flex text-center py-2 ;
+}
+.icon_container{
+    @apply m-auto flex h-24 w-24 xl:h-40 xl:w-40 md:h-36 md:w-36 relative xl:mt-0;
+}
+.images_samples__container{
+    @apply flex flex-wrap relative mt-3 justify-center;
+}
+.samples_container {
+    @apply px-5 py-2 m-1 bg-[#E5E5E5] text-black rounded-2xl;
+}
+.images_container{
+    @apply relative h-8 w-16 xl:h-[40px] xl:w-[92px] md:h-[30px] md:w-[72px] mx-3 md:mx-[25px] my-1;
+}

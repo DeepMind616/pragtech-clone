@@ -1,0 +1,8 @@
+.root {
+  @apply py-20 justify-center gap-6
+    grid 
+    sm:grid-cols-1 
+    xl:grid-cols-4
+    lg:grid-cols-3
+    md:grid-cols-2;
+}

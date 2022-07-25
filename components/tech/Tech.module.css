@@ -1,0 +1,5 @@
+.titleContainer {
+  & > * {
+    @apply flex justify-center;
+  }
+}

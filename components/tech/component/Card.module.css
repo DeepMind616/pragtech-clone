@@ -1,0 +1,20 @@
+
+
+.box{
+    @apply rounded-2xl shadow-xl border-solid border-[1px]
+    mx-7 md:m-1 lg:m-4 px-11 py-6 my-2
+    relative;
+}
+.title{
+    @apply 
+    text-2xl md:text-xl lg:text-2xl
+    text-primary-600 font-semibold uppercase m-4;
+}
+.container{
+    @apply absolute right-4 
+    top-16 xl:top-28 lg:top-28 sm:top-24
+    h-20 w-20 lg:h-28 lg:w-28;
+}
+.techImage{
+    @apply absolute right-0 sm:h-5 sm:w-5;
+}

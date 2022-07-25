@@ -1,0 +1,372 @@
+{
+  "footerValues": [
+    {
+      "Case Studies": [
+        { "name": "SeeYouDoc", "path": "/" },
+        { "name": "The Official Marikina City Website", "path": "/" },
+        { "name": "NAC - CMC Portal", "path": "/" }
+      ]
+    },
+    {
+      "Quick Links": [
+        { "name": "Services", "path": "/" },
+        { "name": "Who We Are", "path": "/" },
+        { "name": "Blogs", "path": "/" },
+        { "name": "Careers", "path": "/" }
+      ]
+    }
+  ],
+
+  "tech": [
+    {
+      "id": 1,
+      "title": "WEB DEVELOPMENT",
+      "samples": ["Elixir & Phoenix ", "ReactJs ", "VueJS ", ".Net ", "Progressive Web App(PWA)"],
+      "picture": "/assets/techImages/coding1.svg"
+    },
+    {
+      "id": 2,
+      "title": "MOBILE DEVELOPMENT",
+      "samples": ["React Native", "Swift", "Kotlin"],
+      "picture": "/assets/techImages/mobile-web1.svg"
+    },
+    {
+      "id": 3,
+      "title": "PRODUCT DESIGN",
+      "samples": ["UX Research", "UI Design"],
+      "picture": "/assets/techImages/vector1.svg"
+    },
+    {
+      "id": 4,
+      "title": "AI DEVELOPMENT",
+      "samples": ["ChatBot", "Machine Learning", "Deep Learning"],
+      "picture": "/assets/techImages/share1.svg"
+    },
+    {
+      "id": 5,
+      "title": "BLOCKCHAIN DEVELOPMENT",
+      "samples": ["Ethereum", "Hyperledger", "Multichain"],
+      "picture": "/assets/techImages/blockchain1.svg"
+    },
+    {
+      "id": 6,
+      "title": "IOT DEVELOPMENT",
+      "samples": ["Raspberry Pi"],
+      "picture": "/assets/techImages/settings1.svg"
+    }
+  ],
+
+  "weveBuilt": [
+    {
+      "id": 1,
+      "title": "SEEYOUDOC",
+      "description": "We developed our very own online booking system for medical appointments.",
+      "samples": ["UX Research ", "UI Design ", "Web Development ", "Mobile Development"],
+      "picture": "/assets/weveBuiltImages/seeyoudoc.jpg",
+      "article": {
+        "title": "SEEYOUDOC",
+        "featuredImage": "/assets/articleImages/article1.png",
+        "content": [
+          {
+            "title": "We developed our very own online search and booking system for medical appointments",
+            "body": "SeeYouDoc is Pragtech’s original product, aimed at addressing key healthcare issues in the country. With SeeYouDoc, we want to make a social impact."
+          },
+          {
+            "title": "The Philippines doesn’t have to fall behind in healthcare",
+            "body": "We saw that healthcare services were being revolutionized all around the world except the Philippines. We started our approach by partnering with Marikina Valley Medical Society to understand the issues from the medical practitioners point-of-view. We realized that there's a lot of serious issues in the industry which will require a lot of time and development to solve. It's a challenge we accepted."
+          },
+          {
+            "title": "We seek to empower the people",
+            "body": "Patients shouldn’t have to wait in line for hours, even days, with no assurance that a doctor would even arrive. Doctors should be able to organize their appointments and schedules even across multiple hospitals and facilities. With SeeYouDoc, we bring doctors and patients together.",
+            "featuredImage": "/assets/articleImages/article2.png"
+          },
+          {
+            "title": "“What we need is not just a technology solution, but a cultural change. We are a startup trying to provide a better healthcare experience.” - Noel del Castillo, CEO of Pragtechnologies and SeeYouDoc",
+            "body": "Information about medical services should be readily accessible to all, and patients deserve to know all their options when it comes to healthcare. This is what SeeYouDoc stands for.",
+            "featuredImage": "/assets/articleImages/article3.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "MARIKINA CITY WEBSITE",
+      "description": "We created a brand new website for the marikina city government.",
+      "samples": ["UX Research ", "UI Design ", "Web Development ", "Mobile Development"],
+      "picture": "/assets/weveBuiltImages/marikina.jpg"
+    },
+    {
+      "id": 3,
+      "title": "TEXTSTACK",
+      "description": "We created an SMS, campaign tool where users can manage theur target market and a wide range of audiences",
+      "samples": ["UX Research ", "UI Design ", "Web Development "],
+      "picture": "/assets/weveBuiltImages/textstack.jpg"
+    },
+    {
+      "id": 4,
+      "title": "NAC - CMC PORTAL",
+      "description": "We helped NAC-CMC to organize their data in a handy admin portal.",
+      "samples": ["UX Research ", "UI Design ", "Web Development "],
+      "picture": "/assets/weveBuiltImages/nac.svg"
+    }
+  ],
+  "header": {
+    "icons": [
+      "/assets/headerIcons/swift.png",
+      "/assets/headerIcons/flutter.png",
+      "/assets/headerIcons/java.png",
+      "/assets/headerIcons/nodejs.png",
+      "/assets/headerIcons/reactjs.png",
+      "/assets/headerIcons/laravel.png",
+      "/assets/headerIcons/python.png",
+      "/assets/headerIcons/codeigniter.png",
+      "/assets/headerIcons/php.png",
+      "/assets/headerIcons/kotlin.png"
+    ],
+    "headerProps": {
+      "caseStudies": {
+        "featuredImg": "/assets/headerImages/case-studies.png",
+        "featuredAlt": "A guy looking at the computer screen displaying a matrix of numbers",
+        "title": "Take a look at what we build",
+        "subtitle": "We have created original products and software, worked for international enterprises and government agencies alike. We let our work speak for us."
+      },
+      "services": {
+        "featuredImg": "/assets/headerImages/services.png",
+        "featuredAlt": "A group of people in a meeting room looking at a computer screen",
+        "title": "We have the skills and experience to serve you",
+        "subtitle": "Curious about how we do things? In Pragtech, we create solutions and build impressive design. Our products are embedded with the most advanced technologies available in the market to build robust web and mobile applications your business deserves."
+      },
+      "whoWeAre": {
+        "featuredImg": "/assets/headerImages/who-we-are.png",
+        "featuredAlt": "A group of people showing their backs and their arms interlocked with each other",
+        "title": "WE ARE",
+        "subtitle": "PRAGTECHNOLOGIES"
+      }
+    },
+    "descriptionIcons": [
+      {
+        "icon": "/assets/headerIcons/quality.svg",
+        "title": "QUALITY",
+        "subtitle": "We take great pride in delivering quality work. We employ nothing but the best industry practices from start to finish."
+      },
+      {
+        "icon": "/assets/headerIcons/integrity.svg",
+        "title": "INTEGRITY",
+        "subtitle": "We are candid and no-nonsense with our clients. We maintain transparency in all aspects of every project."
+      },
+      {
+        "icon": "/assets/headerIcons/respect.svg",
+        "title": "respect",
+        "subtitle": "We build strong relationships founded in trust and respect. Here at Pragtech, we have fun but never forget to treat everyone with dignity."
+      },
+      {
+        "icon": "/assets/headerIcons/knowledge.svg",
+        "title": "Knowledge",
+        "subtitle": "We are always open to learning new techniques and technologies. We work to stay ahead of the ever-changing industry."
+      }
+    ]
+  },
+  "gallery": {
+    "video": [
+      {
+        "src": "/assets/gallery/vid1.png",
+        "alt": "video 1"
+      },
+      {
+        "src": "/assets/gallery/vid2.png",
+        "alt": "video 2"
+      },
+      {
+        "src": "/assets/gallery/vid3.png",
+        "alt": "video 3"
+      },
+      {
+        "src": "/assets/gallery/vid4.png",
+        "alt": "video 4"
+      }
+    ],
+    "image": [
+      {
+        "src": "/assets/gallery/vid1.png",
+        "alt": "image 1"
+      },
+      {
+        "src": "/assets/gallery/vid2.png",
+        "alt": "image 2"
+      },
+      {
+        "src": "/assets/gallery/vid3.png",
+        "alt": "image 3"
+      },
+      {
+        "src": "/assets/gallery/vid4.png",
+        "alt": "image 4"
+      }
+    ]
+  },
+
+  "achievements": [
+    {
+      "id": 1,
+      "label": "Achievement1",
+      "size": 269,
+      "image": "/assets/achievementImages/img1.png"
+    },
+    {
+      "id": 2,
+      "label": "Achievement2",
+      "size": 255.65,
+      "image": "/assets/achievementImages/img2.png"
+    },
+    {
+      "id": 3,
+      "label": "Achievement3",
+      "size": 255.65,
+      "image": "/assets/achievementImages/img3.png"
+    },
+    {
+      "id": 4,
+      "label": "Achievement4",
+      "size":255.65,
+      "image": "/assets/achievementImages/img4.png"
+    }
+  ],
+
+  "technologies": [
+    {
+      "id": 1,
+      "icon": "/assets/TechnologiesImages/coding 1.png",
+      "title": "WEB DEVELOPMENT",
+      "description": "Our team uses the latest programs and frameworks to match the demands of its clients in terms of speed and scalability.",
+      "images": [
+        "/assets/TechnologiesImages/image 23.png",
+        "/assets/TechnologiesImages/image 22.png",
+        "/assets/TechnologiesImages/image 21.png",
+        "/assets/TechnologiesImages/image 25.png",
+        "/assets/TechnologiesImages/image 20.png",
+        "/assets/TechnologiesImages/image 24.png"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "/assets/TechnologiesImages/mobile-web 1.png",
+      "title": "MOBILE DEVELOPMENT",
+      "description": "Our team uses a purpose-built programming language to create cross-platform applications.",
+      "images": [
+        "/assets/TechnologiesImages/image 32.png",
+        "/assets/TechnologiesImages/image 33.png",
+        "/assets/TechnologiesImages/image 34.png"
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "/assets/TechnologiesImages/vector 1.png",
+      "title": "PRODUCT DESIGN",
+      "description": "Our team specializes in translating the client’s vision to build a profesionally-designed digital platform for optimal user experience.",
+      "images": [
+        "/assets/TechnologiesImages/image 35.png",
+        "/assets/TechnologiesImages/image 36.png"
+      ]
+    },
+    {
+      "id": 4,
+      "icon": "/assets/TechnologiesImages/share 1.png",
+      "title": "AI DEVELOPMENT",
+      "description": "Our team expands its capability through the use of artificial intelligence to process information and data to improve businesses and serve our client’s interests in the best way.",
+      "samples":[
+        "ChatBot",
+        "Machine Learning",
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": 5,
+      "icon": "/assets/TechnologiesImages/blockchain 1.png",
+      "title": "BLOCKCHAIN DEVELOPMENT",
+      "description": "Our team can implement blockchain technology, providing a distributed and decentralized data storage.",
+      "images": [
+        "/assets/TechnologiesImages/image 37.png",
+        "/assets/TechnologiesImages/image 38.png",
+        "/assets/TechnologiesImages/image 39.png"
+      ]
+    },
+    {
+      "id": 6,
+      "icon": "/assets/TechnologiesImages/settings 1.png",
+      "title": "IOT DEVELOPMENT",
+      "description": "Our team can construct hardware devices connected to a remote API implementing a seamless IOT system",
+      "images": [
+        "/assets/TechnologiesImages/image 40.png"
+      ]
+    }
+  ],
+  "teamcards":[
+    {
+      "id": 1,
+      "name": "Noel Gary E. Del Castillo",
+      "title":"Founder & CEO",
+      "image": "/assets/teamcardsImages/noel_c.png"
+    },
+    {
+      "id": 2,
+      "name": "Vanessa V. Del Castillo",
+      "title":"Chief Financial Officer",
+      "image": "/assets/teamcardsImages/vanessa_c.png"
+    },
+    {
+      "id": 3,
+      "name": "Jamie G. Floirendo",
+      "title":"Admin Manager",
+      "image": "/assets/teamcardsImages/jamie_f.png"
+    },
+    {
+      "id": 4,
+      "name": "Mollie B. Lorenzo",
+      "title":"Admin Staff",
+      "image": "/assets/teamcardsImages/mollie_l.png"
+    },
+    {
+      "id": 5,
+      "name": "Ymereen C. Lalata",
+      "title":"Admin Staff",
+      "image": "/assets/teamcardsImages/ymereen_l.png"
+    },
+    {
+      "id": 6,
+      "name": "Phoebe Cates D. Eustaquio",
+      "title":"Accounting Associate",
+      "image": "/assets/teamcardsImages/phobe_e.png"
+    },
+    {
+      "id": 7,
+      "name": "Alvin L. Rapada",
+      "title":"Lead Software Engineer",
+      "image": "/assets/teamcardsImages/alvin_r.png"
+    },
+    {
+      "id": 8,
+      "name": "Rod Lauro A. Romarate",
+      "title":"Lead Software Engineer",
+      "image": "/assets/teamcardsImages/rod_r.png"
+    } 
+  ],
+  "companylist":[
+    {
+      "id": 1,
+      "image":"/assets/companyListImages/image 41.png"
+    },
+    {
+      "id": 2,
+      "image":"/assets/companyListImages/image 42.png"
+    },
+    {
+      "id": 3,
+      "image":"/assets/companyListImages/image 43.png"
+    },
+    {
+      "id": 4,
+      "image":"/assets/companyListImages/image 44.png"
+    }
+
+  ]
+}

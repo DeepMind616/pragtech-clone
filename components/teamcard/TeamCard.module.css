@@ -1,0 +1,57 @@
+
+
+.container{
+    @apply px-10 pt-12 justify-center
+    transform transition-all hover:scale-110 duration-300
+    rounded-full overflow-hidden cursor-pointer;
+  
+    width: 200px;
+    height: 200px;
+    
+
+    background: #D5E6D0;
+      
+  }
+
+  .teamImage {
+    @apply absolute;
+
+  }
+
+  .name{
+
+    @apply p-1 m-1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+
+  .title{
+   
+    @apply p-1 m-1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Light Gray */
+
+    color: #C4C4C4;
+  }
+  
+  

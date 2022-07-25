@@ -1,0 +1,50 @@
+.root {
+  @apply w-full;
+}
+
+.rectangle {
+  @apply px-6 mx-auto py-3 justify-center
+    transition-all hover:scale-110 duration-200 hover:shadow-xl
+    min-w-[302px]
+    min-h-[407px];
+  top: 1071px;
+
+  background: #ffffff;
+  /* shadow 1 */
+
+  box-shadow: 5px 3px 36px -6px #e5e5e5;
+  border-radius: 20px;
+  @apply px-4;
+}
+
+.container {
+  @apply xl:flex;
+  box-sizing: border-box;
+
+  height: 380px;
+  width: 269px;
+
+  border: 0.5px solid #e5e5e5;
+  border-radius: 20px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  cursor: pointer;
+
+  &:hover {
+    & .card:before {
+      transform: scale(0.99);
+    }
+
+    & .achievementImage {
+      transform: scale(1.03);
+    }
+  }
+
+  .achievementImage {
+    @apply transition-transform duration-500 block;
+  }
+}
+
+.achievementImage {
+  @apply absolute;
+}

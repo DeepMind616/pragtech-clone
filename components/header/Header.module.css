@@ -1,0 +1,118 @@
+.primary {
+  @apply relative pt-28 md:pt-28 pb-10 min-h-screen;
+
+  @media (min-width: 2048px) {
+    /* prevent header to have too much whitespace in screens larger than 4k */
+    min-height: max-content;
+  }
+  & .headerImageContainer {
+    @apply absolute top-0 right-0 -z-50 hidden lg:block 
+    lg:w-[677px] xl:w-[777px] 2xl:w-[65%] /* image width on diff. screens starting from lg */
+    lg:h-[433px] xl:h-[443px] 2xl:h-[643px]; /* image height */
+
+    & .headerImage {
+      @apply brightness-50;
+    }
+  }
+
+  & .headerContainer {
+    @apply space-y-8 px-4 
+    max-w-[385px] xl:max-w-[518px]
+    sm:ml-6 lg:ml-8 xl:ml-12;
+
+    & .title {
+      @apply uppercase font-bold text-[25px] lg:text-[30px] xl:text-[42px] text-primary-600;
+    }
+
+    & .subtitle {
+      @apply text-base leading-6 text-justify;
+    }
+  }
+
+  & .headerIcons {
+    @apply pt-4 px-5 w-full max-w-8xl mx-auto grid grid-cols-2 justify-center items-center
+    sm:px-12 
+    md:pt-10
+    lg:grid-cols-3 
+    xl:bottom-8 xl:grid-cols-5  xl:px-24
+    2xl:bottom-2 2xl:mt-52;
+
+    @media (min-width: 2048px) {
+      position: static;
+      padding-top: 18rem;
+      margin-top: 0px;
+    }
+
+    & .headerIcon {
+      @apply relative mx-auto 
+      h-14 md:h-16 lg:h-24 
+      w-14 md:w-16 lg:w-24;
+    }
+  }
+}
+
+.secondary {
+  @apply relative min-h-[559px] flex justify-center items-center;
+
+  & .backdropImage {
+    @apply absolute inset-0 -z-50;
+
+    & .headerImage {
+      @apply brightness-50;
+    }
+  }
+
+  & .headerContainer {
+    @apply text-white text-center max-w-[779px];
+
+    & .title {
+      @apply uppercase font-bold text-[25px] lg:text-[30px] xl:text-[42px];
+    }
+
+    & .subtitle {
+      @apply text-base xl:text-[25px] leading-6 px-4;
+    }
+  }
+}
+
+.tertiary {
+  & .headerContainer {
+    @apply relative flex justify-center items-center text-center h-[401px];
+
+    & .backdropImage {
+      @apply absolute inset-0 -z-50;
+
+      & .headerImage {
+        @apply brightness-50;
+      }
+    }
+
+    /* Selects all elements 
+    except first child */
+    & > *:not(:first-child) {
+      @apply z-50 uppercase font-bold;
+    }
+
+    & .title {
+      @apply text-white text-[20px] xl:text-[30px];
+    }
+
+    & .subtitle {
+      @apply text-primary-600 text-[25px] lg:text-[30px] xl:text-[42px];
+    }
+  }
+
+  & .headerCardContainer {
+    @apply max-w-8xl grid mx-auto  gap-5 py-14 px-5
+    sm:px-12 
+    md:grid-cols-2
+    xl:px-24 xl:grid-cols-4;
+    & .headerCard {
+      @apply flex flex-col items-center uppercase text-center;
+
+      & .imageContainer {
+        @apply relative h-14 w-14;
+      }
+    }
+  }
+}

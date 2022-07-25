@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "svg": "/assets/contactUs/telephone.svg",
+      "text": "0917-6289522"
+    },
+    {
+      "svg": "/assets/contactUs/email.svg",
+      "text": "hello@pragtechnologies.com"
+    },
+    {
+      "svg": "/assets/contactUs/pin.svg",
+      "text": "16 Bronze St, SSS Village Conception II, Marikina City, Philippines, 1811"
+    },
+    {
+      "svg": "/assets/contactUs/twitter.svg",
+      "text": "twitter.com/pragtechno"
+    },
+    {
+      "svg": "/assets/contactUs/facebook.svg",
+      "text": "facebook.com/pragtechnologies"
+    },
+    {
+      "svg": "/assets/contactUs/linkedin.svg",
+      "text": "linkedin.com/company/pragtechnologies-corp-/"
+    }
+  ]
+}
